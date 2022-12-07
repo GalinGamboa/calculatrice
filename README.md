@@ -26,6 +26,11 @@ Small Application of a calculator made in HTML, Css and Js.
 
     editor.md/
             html
-			css
-			js
+		css
+		js
+
+
+#### Graphics
+![](./calculatrice.png)
+
 			
