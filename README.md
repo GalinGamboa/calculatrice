@@ -37,4 +37,4 @@ Small Application of a calculator made in HTML, Css and Js.
 
 # "Important note"
 
-## This is just a test test to learn how to make files README.md
+## This is just a test to learn how to make files README.md
