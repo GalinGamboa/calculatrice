@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <form action="" name="Calculator" >
+            <h1>CALCULATRICE</h1>
+
+            <input class="result" type="textfield" name="ans" autocomplete="off" readonly>
+
+            <input class="mybutton gris" type="button" onclick="insert('7')" value="7">
+            <input class="mybutton gris" type="button" onclick="insert('8')" value="8">
+            <input class="mybutton gris" type="button" onclick="insert('9')" value="9">
+            <input class="mybutton orange" type="button" onclick="operador('+')" value="+">
+
+            <br>
+
+            <input class="mybutton gris" type="button" onclick="insert('4')" value="4">
+            <input class="mybutton gris" type="button" onclick="insert('5')" value="5">
+            <input class="mybutton gris" type="button" onclick="insert('6')" value="6">
+            <input class="mybutton orange" type="button" onclick="operador('-')" value="-">
+
+            <br>
+
+            <input class="mybutton gris" type="button" onclick="insert('1')" value="1">
+            <input class="mybutton gris" type="button" onclick="insert('2')" value="2">
+            <input class="mybutton gris" type="button" onclick="insert('3')" value="3">
+            <input class="mybutton orange" type="button" onclick="operador('*')" value="X">
+
+            <br>
+
+            <input class="mybutton gris" type="button" onclick="insert('0')" value="0">
+            <input class="mybutton" type="reset" onclick="" value="C">
+            <input class="eval" type="button" onClick="resultado()" value="=">
+            <input class="mybutton orange" type="button" onclick="operador('/')" value="/">
+
+        </form>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
